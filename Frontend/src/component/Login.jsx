@@ -166,7 +166,7 @@ function Login() {
     setError("");
     try {
       const { data } = await axios.post(
-        "http://localhost:8080/api/v1/user/login",
+        "https://deepseekai-oi1b.onrender.com/api/v1/user/login",
         {
           firstName: formData.firstName,
           lastName: formData.lastName,

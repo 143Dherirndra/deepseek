@@ -10,7 +10,7 @@ function Sidebar() {
   const [,setAuthUser]=useAuth();
   const handleLogout= async()=>{
     try {
-      const  {data}=await axios.get("http://localhost:8080/api/v1/user/logout",{
+      const  {data}=await axios.get("https://deepseekai-oi1b.onrender.com/api/v1/user/logout",{
         withCredentials:true
       })
       localStorage.removeItem("user");
