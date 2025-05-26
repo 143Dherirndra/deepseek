@@ -1,7 +1,7 @@
 import React from 'react'
 import { Cookie, LogOut, X } from 'lucide-react'
 import profile from '../../public/profile.png'
-import { useAuth } from '../context/Authprovider'
+import { useAuth } from '../context/AuthProvider'
 import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
 function Sidebar() {

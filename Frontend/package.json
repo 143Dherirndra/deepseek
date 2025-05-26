@@ -5,10 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-     "build": "react-scripts build",
+     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start": "nodemon index.js"
+    "start":"nodemon index.js"
+  
+  
   },
   
   "dependencies": {
