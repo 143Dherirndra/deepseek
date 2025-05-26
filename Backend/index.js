@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(cookieParser())
 app.use(
   cors({
-    origin:"https://deepseek-qkon.onrender.com",
+    origin:process.env.FRONT_END,
     credentials:true,
     methode:["GET","POST","PUT","DELETE"],
     allowedHeaders:["Content-Type","Authorization"]
