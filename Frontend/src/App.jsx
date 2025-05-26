@@ -2,8 +2,8 @@ import React from "react";
 import { Routes, Route, Navigate } from "react-router";
 import Home from "./component/Home";
 import Login from "./component/Login";
-import Signup from "./component/signup";
-import { useAuth } from "./context/Authprovider";
+import Signup from "./component/Signup";
+import { useAuth } from "./context/AuthProvider";
 // import { Route } from 'lucide-react'
 
 function App() {
