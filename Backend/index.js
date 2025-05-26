@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(cookieParser())
 app.use(
   cors({
-    origin:process.env.FRONT_END,
+    origin:"https://deepseekai-oi1b.onrender.com",
     credentials:true,
     methode:["GET","POST","PUT","DELETE"],
     allowedHeaders:["Content-Type","Authorization"]
