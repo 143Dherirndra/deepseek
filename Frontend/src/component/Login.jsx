@@ -138,7 +138,7 @@ import { Eye } from 'lucide-react';
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import { useAuth } from '../context/Authprovider';
+import { useAuth } from '../context/AuthProvider';
 
 function Login() {
   const [formData, setFormData] = useState({
