@@ -75,7 +75,7 @@ mongoose.connect(MONGO_URL, { useNewUrlParser: true, useUnifiedTopology: true })
   .catch(err => console.error("Failed to connect to MongoDB:", err));
 
 // Routes
-app.use("/api/v1/user", userRoutes);
+app.use("https://deepseekai-oi1b.onrender.com/api/v1/user", userRoutes);
 
 // Start Server
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
